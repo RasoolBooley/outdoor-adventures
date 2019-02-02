@@ -1,0 +1,22 @@
+/* Mixins -------------------- */
+/* Pseudo-classes ------------------ */
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:700|PT+Serif:700");
+h1 {
+  text-align: center;
+  font-size: 15em;
+  padding-top: 20%;
+  margin: 0px;
+  font-family: 'PT Serif', serif;
+  color: #30657f;
+  text-shadow: black; }
+
+.landscape {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/clouds-coast-landscape-29049.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* Media Queries -------------------- */
+
+/*# sourceMappingURL=main.css.map */
