@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif:700|PT+Serif:700");
 h1 {
   text-align: center;
-  font-size: 15em;
+  font-size: 4em;
   padding-top: 20%;
   margin: 0px;
   font-family: 'PT Serif', serif;
@@ -28,7 +28,7 @@ h1 {
     display: inline; }
   .nav a {
     text-decoration: none;
-    font-size: 6em;
+    font-size: 1.7em;
     padding: .5em;
     color: #0f0909;
     vertical-align: bottom; }
