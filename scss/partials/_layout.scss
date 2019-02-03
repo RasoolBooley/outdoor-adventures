@@ -10,3 +10,29 @@
 // header { 
 //     grid-area: header;
 // }
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid-template-rows: 6fr 6fr 6fr 6fr 6fr 2fr;
+    grid-template-areas: 
+                            "header header"
+                            "hike asidehike"
+                            "fish asidefish"
+                            "hunt asidehunt"
+                            "canoe asidecanoe"
+                            "footer footer"
+}
+
+.landscape {
+    grid-area: header;
+}
+
+.hike {
+    grid-area: hike;
+}
+
+.asidehike {
+    grid-area: asidehike;
+}
