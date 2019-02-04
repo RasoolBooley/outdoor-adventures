@@ -14,8 +14,8 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: 8fr 2fr;
-    grid-template-rows: 6fr 6fr 6fr 6fr 6fr 2fr;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
     grid-template-areas: 
                             "header header"
                             "hike asidehike"
@@ -36,3 +36,28 @@
 .asidehike {
     grid-area: asidehike;
 }
+
+.fish {
+    grid-area: fish;
+}
+
+.asidefish {
+    grid-area: asidefish;
+}
+
+.hunt {
+    grid-area: hunt;
+}
+
+.asidehunt {
+    grid-area: asidehunt;
+}
+
+.canoe {
+    grid-area: canoe;
+}
+
+.asidecanoe {
+    grid-area: asidecanoe;
+}
+

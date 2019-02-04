@@ -25,3 +25,24 @@ h1 {
     color: #080e11;
     
 }
+
+h2 {
+    font-family: 'PT Serif', serif;
+    padding: 1em;
+}
+
+
+p {
+    padding: 1.2em;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../images/bodybg.jpg);
+}
+
+
+section {
+    background-color: rgba(146, 141, 141, 0.61);
+}

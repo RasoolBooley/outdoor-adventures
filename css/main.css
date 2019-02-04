@@ -9,6 +9,21 @@ h1 {
   font-family: 'PT Serif', serif;
   color: #080e11; }
 
+h2 {
+  font-family: 'PT Serif', serif;
+  padding: 1em; }
+
+p {
+  padding: 1.2em; }
+
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../images/bodybg.jpg); }
+
+section {
+  background-color: rgba(146, 141, 141, 0.61); }
+
 .landscape {
   height: 100vh;
   width: 100%;
@@ -17,8 +32,10 @@ h1 {
   background-size: cover; }
 
 .nav {
+  position: fixed;
   background-color: rgba(221, 214, 214, 0.61);
-  height: 8vh; }
+  height: 8vh;
+  width: 98.75%; }
   .nav ul {
     margin: 0;
     padding: 0;
@@ -29,12 +46,12 @@ h1 {
   .nav a {
     text-decoration: none;
     font-size: 1.7em;
-    padding: 0em .5em .7em .5em;
+    padding: 0em .5em .5em .3em;
     color: #0f0909;
     vertical-align: bottom; }
     .nav a:hover {
       background-color: rgba(146, 141, 141, 0.61);
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+      box-shadow: 0px 0.5em 1em 0px rgba(0, 0, 0, 0.2); }
 
 .dropdown {
   position: relative;
@@ -44,10 +61,10 @@ h1 {
   display: none;
   position: absolute;
   background-color: rgba(221, 214, 214, 0.61);
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0em 0.5em 1em 0em rgba(0, 0, 0, 0.2); }
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: .75em 1em;
     text-decoration: none;
     display: block; }
   .dropdown-content a:hover {
@@ -57,12 +74,32 @@ h1 {
   display: block;
   padding: 0em 2.6em .5em 0em; }
 
+.img1 {
+  width: 25em;
+  padding-top: 1em;
+  border-radius: 2%; }
+
+.img2 {
+  width: 25em;
+  padding-top: 1em;
+  border-radius: 2%; }
+
+.img3 {
+  width: 25em;
+  padding-top: 1em;
+  border-radius: 2%; }
+
+.img4 {
+  width: 25em;
+  padding-top: 1em;
+  border-radius: 2%; }
+
 /* Media Queries -------------------- */
 .wrapper {
   display: grid;
-  grid-template-columns: 8fr 2fr;
-  grid-template-rows: 6fr 6fr 6fr 6fr 6fr 2fr;
-  grid-template-areas: "header" "hike asidehike" "fish asidefish" "hunt asidehunt" "canoe asidecanoe" "footer footer"; }
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-areas: "header header" "hike asidehike" "fish asidefish" "hunt asidehunt" "canoe asidecanoe" "footer footer"; }
 
 .landscape {
   grid-area: header; }
@@ -72,5 +109,23 @@ h1 {
 
 .asidehike {
   grid-area: asidehike; }
+
+.fish {
+  grid-area: fish; }
+
+.asidefish {
+  grid-area: asidefish; }
+
+.hunt {
+  grid-area: hunt; }
+
+.asidehunt {
+  grid-area: asidehunt; }
+
+.canoe {
+  grid-area: canoe; }
+
+.asidecanoe {
+  grid-area: asidecanoe; }
 
 /*# sourceMappingURL=main.css.map */
