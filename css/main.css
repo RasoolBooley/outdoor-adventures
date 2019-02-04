@@ -93,6 +93,16 @@ a {
   padding-top: 1em;
   border-radius: 2%; }
 
+.img5 {
+width: 25em;
+padding-top: 1em;
+border-radius: 2%; }
+
+.img6 {
+  width: 25em;
+  padding-top: 1em;
+  border-radius: 2%; }
+
 /* Media Queries -------------------- */
 .wrapper {
   display: grid;
