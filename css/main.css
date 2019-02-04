@@ -1,6 +1,10 @@
 /* Mixins -------------------- */
 /* Pseudo-classes ------------------ */
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif:700|PT+Serif:700");
+html {
+  transition: 400ms;
+  scroll-behavior: smooth; }
+
 h1 {
   text-align: center;
   font-size: 4em;
@@ -14,15 +18,10 @@ h2 {
   padding: 1em; }
 
 p {
-  padding: 1.2em; }
+  padding: 1em; }
 
-body {
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url(../images/bodybg.jpg); }
-
-section {
-  background-color: rgba(146, 141, 141, 0.61); }
+a {
+  text-decoration: none; }
 
 .landscape {
   height: 100vh;
@@ -98,7 +97,7 @@ section {
 .wrapper {
   display: grid;
   grid-template-columns: 7fr 3fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
   grid-template-areas: "header header" "hike asidehike" "fish asidefish" "hunt asidehunt" "canoe asidecanoe" "footer footer"; }
 
 .landscape {

@@ -15,13 +15,14 @@
 .wrapper {
     display: grid;
     grid-template-columns: 7fr 3fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
     grid-template-areas: 
                             "header header"
                             "hike asidehike"
                             "fish asidefish"
                             "hunt asidehunt"
                             "canoe asidecanoe"
+                            "climb asideclimb"
+                            "camp asidecamp"
                             "footer footer"
 }
 
@@ -61,3 +62,18 @@
     grid-area: asidecanoe;
 }
 
+.climb {
+    grid-area: climb;
+}
+
+.asideclimb {
+    grid-area: asideclimb;
+}
+
+.camp {
+    grid-area: camp;
+}
+
+.asidecamp {
+    grid-area: asidecamp;
+}
