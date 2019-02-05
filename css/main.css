@@ -111,6 +111,10 @@ a {
   padding-top: 1em;
   border-radius: 2%; }
 
+.fcontainer {
+  background-color: #f2f2f2;
+  padding: 2em; }
+
 /* Media Queries -------------------- */
 
 /*# sourceMappingURL=main.css.map */
