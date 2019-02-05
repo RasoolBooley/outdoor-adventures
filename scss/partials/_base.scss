@@ -1,21 +1,3 @@
-/* Pseudo-classes ------------------ */
-
-// a {
-//     &:link {
-//         color: $color-link-default;
-//         text-decoration: none;
-//     }
-
-//     &:visited {
-//         color: $color-link-visited;
-//     }
-
-//     &:hover {
-//         color: rgba($color-link-default, .5);
-//     }
-// }
-
-
 html {
     transition: 400ms;
     scroll-behavior: smooth;
@@ -25,21 +7,29 @@ body {
     margin: 0;
 }
 
+
+
 h1 {
     text-align: center;
     font-size: 4em;
-    padding-top: 20%;
     margin: 0px;
-    font-family: 'PT Serif', serif;
     color: ivory;
-    
+    text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 h2 {
-    font-family: 'PT Serif', serif;
     padding: 1em;
 }
 
+h3 {
+    text-align: center;
+    font-size: 1.7em;
+    color: ivory;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-decoration: underline;
+    padding-top: 20%;
+    margin: 0;
+}
 
 p {
     padding: 1em;
@@ -48,6 +38,4 @@ p {
 a {
     text-decoration: none;
 }
-
-
 

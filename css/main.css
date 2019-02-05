@@ -1,21 +1,29 @@
 /* Mixins -------------------- */
-/* Pseudo-classes ------------------ */
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif:700|PT+Serif:700");
 html {
   transition: 400ms;
   scroll-behavior: smooth; }
 
+body {
+  margin: 0; }
+
 h1 {
   text-align: center;
   font-size: 4em;
-  padding-top: 20%;
   margin: 0px;
-  font-family: 'PT Serif', serif;
-  color: #080e11; }
+  color: ivory;
+  text-shadow: 2px 2px black; }
 
 h2 {
-  font-family: 'PT Serif', serif;
   padding: 1em; }
+
+h3 {
+  text-align: center;
+  font-size: 1.7em;
+  color: ivory;
+  text-shadow: 2px 2px black;
+  text-decoration: underline;
+  padding-top: 20%;
+  margin: 0; }
 
 p {
   padding: 1em; }
@@ -34,7 +42,7 @@ a {
   position: fixed;
   background-color: rgba(221, 214, 214, 0.61);
   height: 8vh;
-  width: 98.75%; }
+  width: 100%; }
   .nav ul {
     margin: 0;
     padding: 0;
@@ -94,9 +102,9 @@ a {
   border-radius: 2%; }
 
 .img5 {
-width: 25em;
-padding-top: 1em;
-border-radius: 2%; }
+  width: 25em;
+  padding-top: 1em;
+  border-radius: 2%; }
 
 .img6 {
   width: 25em;
@@ -104,37 +112,5 @@ border-radius: 2%; }
   border-radius: 2%; }
 
 /* Media Queries -------------------- */
-.wrapper {
-  display: grid;
-  grid-template-columns: 7fr 3fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
-  grid-template-areas: "header header" "hike asidehike" "fish asidefish" "hunt asidehunt" "canoe asidecanoe" "footer footer"; }
-
-.landscape {
-  grid-area: header; }
-
-.hike {
-  grid-area: hike; }
-
-.asidehike {
-  grid-area: asidehike; }
-
-.fish {
-  grid-area: fish; }
-
-.asidefish {
-  grid-area: asidefish; }
-
-.hunt {
-  grid-area: hunt; }
-
-.asidehunt {
-  grid-area: asidehunt; }
-
-.canoe {
-  grid-area: canoe; }
-
-.asidecanoe {
-  grid-area: asidecanoe; }
 
 /*# sourceMappingURL=main.css.map */
