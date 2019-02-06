@@ -61,10 +61,9 @@ textarea {
   margin-left: 20px; }
 
 button {
-  height: 40px;
-  border-radius: 2%;
-  padding-left: 20px;
-  margin: 15px 0px 0px 170px; }
+  height: 30px;
+  border-radius: 3%;
+  margin: 15px 0px 0px 175px; }
 
 form {
   background-color: #cfbcbc8c;
@@ -93,12 +92,24 @@ i:hover {
 
 .subhead {
   background-color: rgba(221, 214, 214, 0.61);
-  margin: 0; }
+  margin: 0;
+  padding-top: 1em; }
 
 .subtxt {
   font-size: 1.75em;
   text-align: center;
-  margin-top: 0; }
+  margin-top: 0;
+  padding: 1em 3em 3em 3em;
+  margin-bottom: 0; }
+
+.subsub {
+  background-image: url(../images/bodybg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 75vh;
+  width: 98vw;
+  margin: 0;
+  padding: 0; }
 
 .nav {
   position: fixed;
@@ -145,31 +156,37 @@ i:hover {
 
 .img1 {
   width: 25em;
+  height: 16.7em;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img2 {
   width: 25em;
+  height: 16.7em;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img3 {
   width: 25em;
+  height: 16.7em;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img4 {
   width: 25em;
+  height: 16.7em;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img5 {
   width: 25em;
+  height: 16.7em;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img6 {
   width: 25em;
+  height: 16.7em;
   padding-top: 1em;
   border-radius: 2%; }
 
@@ -184,6 +201,24 @@ i:hover {
 .arrow-down {
   text-align: center;
   margin: 8% 0; }
+
+/* styles for the icon links at the bottom of the page */
+#foot {
+  background-color: rgba(209, 189, 189, 0.747); }
+
+.scl {
+  color: #0E1428;
+  border-radius: 30%;
+  transition: 400ms;
+  font-size: 1em;
+  padding-left: 22.5%; }
+
+.scl:hover {
+  color: #e2d4d4;
+  transition: 400ms; }
+
+#con {
+  color: #1d0e0e; }
 
 /* Media Queries -------------------- */
 .wrapper {
