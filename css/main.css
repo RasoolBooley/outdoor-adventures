@@ -29,6 +29,12 @@ h4 {
   text-align: center;
   font-size: 2em; }
 
+h5 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  padding-top: 1.5em; }
+
 p {
   padding: 1em; }
 
@@ -67,12 +73,32 @@ form {
   border-radius: 2%;
   margin-bottom: 30px; }
 
+i {
+  color: white;
+  font-size: 2em;
+  margin-top: 3em;
+  text-shadow: 2px 2px black;
+  transition: 150ms; }
+
+i:hover {
+  color: #8c8097;
+  transition: 150ms; }
+
 .landscape {
   height: 100vh;
   width: 100%;
   background-image: url(../images/clouds-coast-landscape-29049.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
+
+.subhead {
+  background-color: rgba(221, 214, 214, 0.61);
+  margin: 0; }
+
+.subtxt {
+  font-size: 1.75em;
+  text-align: center;
+  margin-top: 0; }
 
 .nav {
   position: fixed;
@@ -155,6 +181,14 @@ form {
   background-attachment: fixed;
   background-size: cover; }
 
+.arrow-down {
+  text-align: center;
+  margin: 8% 0; }
+
 /* Media Queries -------------------- */
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 3fr 3fr 3fr; }
 
 /*# sourceMappingURL=main.css.map */

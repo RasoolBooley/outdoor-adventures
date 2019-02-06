@@ -11,3 +11,8 @@
 //     grid-area: header;
 // }
 
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 3fr 3fr 3fr;
+}
