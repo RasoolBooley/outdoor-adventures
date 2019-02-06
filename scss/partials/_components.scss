@@ -116,7 +116,12 @@
 // contact form styles
 
 .fcontainer {
-    background-color: #f2f2f2;
-    padding: 2em;
+    padding-top: 2em;
+}
+
+#contactbg {
+    background-image: url(../images/contactbg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 

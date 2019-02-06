@@ -25,11 +25,47 @@ h3 {
   padding-top: 20%;
   margin: 0; }
 
+h4 {
+  text-align: center;
+  font-size: 2em; }
+
 p {
   padding: 1em; }
 
 a {
   text-decoration: none; }
+
+input {
+  height: 40px;
+  border-radius: 2%;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width: 27em; }
+
+select {
+  height: 40px;
+  border-radius: 2%;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width: 29em; }
+
+textarea {
+  margin-left: 20px; }
+
+button {
+  height: 40px;
+  border-radius: 2%;
+  padding-left: 20px;
+  margin: 15px 0px 0px 170px; }
+
+form {
+  background-color: #cfbcbc8c;
+  margin: 0px 420px;
+  padding: 28px 0px;
+  border-radius: 2%;
+  margin-bottom: 30px; }
 
 .landscape {
   height: 100vh;
@@ -112,8 +148,12 @@ a {
   border-radius: 2%; }
 
 .fcontainer {
-  background-color: #f2f2f2;
-  padding: 2em; }
+  padding-top: 2em; }
+
+#contactbg {
+  background-image: url(../images/contactbg.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
 
 /* Media Queries -------------------- */
 

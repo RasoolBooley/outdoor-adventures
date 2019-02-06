@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Contact Outdoor Adventures</title>
 </head>
-<body>
+<body id="contactbg">
             <nav class="nav">
                     <ul>
                         <li><a id="jump" href="index.html">Home</a></li>
@@ -30,38 +30,24 @@
             
                 <div class="fcontainer">
 
+                    <h4>
+                        Contact Us
+                    </h4>
+
                     <form>
 
-                        
-                        <div class="form">
-                            <label for="name">First Name</label>
-                        </div>
+                        <section>
+                            <input type="text" name="name" id="" placeholder="First Name" required>
+                        </section>
 
-                        <div class="form">
-                            <input type="text" name="name" id="" placeholder="Your Name" required>
-                        </div>
+                        <section>
+                            <input type="text" name="surname" id="" placeholder="Last Name" required>
+                        </section>
 
-                        <div class="form">
-                            <label for="surname">Your Surname</label>
-                        </div>
-
-                        <div class="form">
-                            <input type="text" name="surname" id="" placeholder="Your Surname" required>
-                        </div>
-
-                        <div class="form">
-                            <label for="email">Email Address</label>
-                        </div>
-
-                        <div class="form">
+                        <section>
                             <input type="email" name="email" id="" placeholder="example@gmail.com" required>
-                        </div>
+                        </section>
 
-                        <div class="form">
-                            <label for="activity">Activity</label>
-                        </div>
-
-                        <div class="form">
                             <select name="activity" id="">
                                     <option>Hiking</option>
                                     <option>Fishing</option>
@@ -70,18 +56,15 @@
                                     <option>Climbing</option>
                                     <option>Camping</option>
                             </select>
-                        </div>
 
-                        <div class="form">
-                            <label>Subject</label>
-                        </div>
-
-                        <div class="form">
-                            <textarea cols="30" rows="10"></textarea required>
-                        </div>
+                        <section>
+                            <textarea cols="46" rows="10"></textarea required>
+                        </section>
 
                         <button class="form">Submit</button>
 
                     </form>
+
+            </div>
 </body>
 </html>
