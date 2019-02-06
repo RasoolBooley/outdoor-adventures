@@ -5,35 +5,40 @@ html {
 
 body {
     margin: 0;
+    background-color: rgba(221, 214, 214, 0.61);
 }
 
 
 
 h1 {
     text-align: center;
-    font-size: 4em;
-    margin: 0px;
+    font-size: 6em;
+    margin: 0;
     color: ivory;
     text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family: 'Amatic SC', cursive;
 }
 
 h2 {
     padding: 1em;
+    font-family: 'Courgette', cursive;
 }
 
 h3 {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 2em;
     color: ivory;
     text-shadow: 2px 2px rgb(0, 0, 0);
     text-decoration: underline;
-    padding-top: 20%;
+    padding-top: 16%;
     margin: 0;
+    font-family: 'Amatic SC', cursive; 
 }
 
 h4 {
     text-align: center;
     font-size: 2em;
+    font-family: 'Courgette', cursive;
 }
 
 h5 {
@@ -41,49 +46,55 @@ h5 {
     font-size: 2em;
     margin: 0;
     padding-top: 1.5em;
+    font-family: 'Courgette', cursive;
 }
 
 
 p {
     padding: 1em;
+    font-family: 'Courgette', cursive;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Courgette', cursive;
 }
 
 input {
-    height: 40px;
+    height: 5vh;
     border-radius: 2%;
-    padding-left: 20px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    width: 27em;
+    margin-bottom: 2em;
+    margin-left: 2vw;
+    width: 25vw;
+    font-family: 'Courgette', cursive;
 }
 
 select {
-    height: 40px;
+    height: 6vh;
     border-radius: 2%;
     padding-left: 20px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    width: 29em;
+    margin-bottom: 10vh;
+    margin-left: 2vw;
+    width: 25.5vw;
+    font-family: 'Courgette', cursive;
 }
 
 textarea {
-    margin-left: 20px;
+    margin-left: 2vw;
+    font-family: 'Courgette', cursive;
 }
 
 button {
-    height: 30px;
+    height: 5vh;
     border-radius: 3%;
-    margin: 15px 0px 0px 175px;
+    margin: 2vh 0vh 0vh 26vh;
+    font-family: 'Courgette', cursive;
 }
 
 form {
     background-color: #cfbcbc8c;
-    margin: 0px 420px;
-    padding: 28px 0px;
+    margin: 0px 34vw;
+    padding: 5vh 0px;
     border-radius: 2%;
     margin-bottom: 30px;
 }

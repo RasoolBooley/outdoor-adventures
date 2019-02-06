@@ -1,74 +1,86 @@
 /* Mixins -------------------- */
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Courgette|Kaushan+Script");
 html {
   transition: 400ms;
   scroll-behavior: smooth; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background-color: rgba(221, 214, 214, 0.61); }
 
 h1 {
   text-align: center;
-  font-size: 4em;
-  margin: 0px;
+  font-size: 6em;
+  margin: 0;
   color: ivory;
-  text-shadow: 2px 2px black; }
+  text-shadow: 2px 2px black;
+  font-family: 'Amatic SC', cursive; }
 
 h2 {
-  padding: 1em; }
+  padding: 1em;
+  font-family: 'Courgette', cursive; }
 
 h3 {
   text-align: center;
-  font-size: 1.7em;
+  font-size: 2em;
   color: ivory;
   text-shadow: 2px 2px black;
   text-decoration: underline;
-  padding-top: 20%;
-  margin: 0; }
+  padding-top: 16%;
+  margin: 0;
+  font-family: 'Amatic SC', cursive; }
 
 h4 {
   text-align: center;
-  font-size: 2em; }
+  font-size: 2em;
+  font-family: 'Courgette', cursive; }
 
 h5 {
   text-align: center;
   font-size: 2em;
   margin: 0;
-  padding-top: 1.5em; }
+  padding-top: 1.5em;
+  font-family: 'Courgette', cursive; }
 
 p {
-  padding: 1em; }
+  padding: 1em;
+  font-family: 'Courgette', cursive; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: 'Courgette', cursive; }
 
 input {
-  height: 40px;
+  height: 5vh;
   border-radius: 2%;
-  padding-left: 20px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  width: 27em; }
+  margin-bottom: 2em;
+  margin-left: 2vw;
+  width: 25vw;
+  font-family: 'Courgette', cursive; }
 
 select {
-  height: 40px;
+  height: 6vh;
   border-radius: 2%;
   padding-left: 20px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  width: 29em; }
+  margin-bottom: 10vh;
+  margin-left: 2vw;
+  width: 25.5vw;
+  font-family: 'Courgette', cursive; }
 
 textarea {
-  margin-left: 20px; }
+  margin-left: 2vw;
+  font-family: 'Courgette', cursive; }
 
 button {
-  height: 30px;
+  height: 5vh;
   border-radius: 3%;
-  margin: 15px 0px 0px 175px; }
+  margin: 2vh 0vh 0vh 26vh;
+  font-family: 'Courgette', cursive; }
 
 form {
   background-color: #cfbcbc8c;
-  margin: 0px 420px;
-  padding: 28px 0px;
+  margin: 0px 34vw;
+  padding: 5vh 0px;
   border-radius: 2%;
   margin-bottom: 30px; }
 
@@ -90,6 +102,10 @@ i:hover {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.arrow-down {
+  text-align: center;
+  margin: 8% 0; }
+
 .subhead {
   background-color: rgba(221, 214, 214, 0.61);
   margin: 0;
@@ -98,16 +114,15 @@ i:hover {
 .subtxt {
   font-size: 1.75em;
   text-align: center;
-  margin-top: 0;
   padding: 1em 3em 3em 3em;
-  margin-bottom: 0; }
+  margin: 0em; }
 
 .subsub {
   background-image: url(../images/bodybg.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 75vh;
-  width: 98vw;
+  width: 100%;
   margin: 0;
   padding: 0; }
 
@@ -155,54 +170,49 @@ i:hover {
   padding: 0em 2.6em .5em 0em; }
 
 .img1 {
-  width: 25em;
-  height: 16.7em;
+  width: 100%;
+  height: auto;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img2 {
-  width: 25em;
-  height: 16.7em;
+  width: 100%;
+  height: auto;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img3 {
-  width: 25em;
-  height: 16.7em;
+  width: 100%;
+  height: auto;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img4 {
-  width: 25em;
-  height: 16.7em;
+  width: 100%;
+  height: auto;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img5 {
-  width: 25em;
-  height: 16.7em;
+  width: 100%;
+  height: auto;
   padding-top: 1em;
   border-radius: 2%; }
 
 .img6 {
-  width: 25em;
-  height: 16.7em;
+  width: 100%;
+  height: auto;
   padding-top: 1em;
   border-radius: 2%; }
 
 .fcontainer {
-  padding-top: 2em; }
+  padding-top: 4vh; }
 
 #contactbg {
   background-image: url(../images/contactbg.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
-.arrow-down {
-  text-align: center;
-  margin: 8% 0; }
-
-/* styles for the icon links at the bottom of the page */
 #foot {
   background-color: rgba(209, 189, 189, 0.747); }
 
@@ -223,7 +233,8 @@ i:hover {
 /* Media Queries -------------------- */
 .wrapper {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 3fr 3fr 3fr; }
+  grid-gap: 1em;
+  grid-template-columns: 3fr 3fr 3fr;
+  padding-left: 2%; }
 
 /*# sourceMappingURL=main.css.map */
