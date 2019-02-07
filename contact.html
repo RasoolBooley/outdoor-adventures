@@ -18,9 +18,9 @@
                                         <a id="jump" href="index.html#hike">Hiking</a>
                                         <a id="jump" href="index.html#fish">Fishing</a>
                                         <a id="jump" href="index.html#hunt">Hunting</a>
-                                        <a id="jump" href="#index.htmlcanoe">Canoeing</a>
-                                        <a id="jump" href="#index.htmlclimb">Climbing</a>
-                                        <a id="jump" href="#index.htmlcamp"> Camping</a>
+                                        <a id="jump" href="index.html#canoe">Canoeing</a>
+                                        <a id="jump" href="index.html#climb">Climbing</a>
+                                        <a id="jump" href="index.html#camp"> Camping</a>
                                     </div>
                             </div>
                             <li><a href="gallery.html">Gallery</a></li>
@@ -29,26 +29,33 @@
                 </nav>
 
             
-                <div class="fcontainer">
+                <div>
 
-                    <h4>
-                        Contact Us
-                    </h4>
+                    <h3 id="home" class="query">
+                        Got Any Queries?
+                    </h3>
 
                     <form>
 
                         <section>
+                                <p class="contact-text">First Name</p>
                             <input type="text" name="name" id="" placeholder="First Name" required>
                         </section>
 
                         <section>
+                                <p class="contact-text">Last Name</p>
                             <input type="text" name="surname" id="" placeholder="Last Name" required>
                         </section>
 
                         <section>
+                                <p class="contact-text">Select your activity</p>
                             <input type="email" name="email" id="" placeholder="example@gmail.com" required>
                         </section>
 
+                            <section>
+                                <p class="contact-text">
+                                    Select the activity you want to know more about
+                                </p>
                             <select name="activity" id="">
                                     <option>Hiking</option>
                                     <option>Fishing</option>
@@ -57,27 +64,37 @@
                                     <option>Climbing</option>
                                     <option>Camping</option>
                             </select>
+                            </section>
 
                         <section>
-                            <textarea cols="46" rows="10">Send us a message!</textarea>
+                            <p class="contact-text">
+                                Send us a message!
+                            </p>
+                            <textarea cols="34" rows="10"></textarea>
                         </section>
 
                         <button class="form">Submit</button>
 
                     </form>
 
-            </div>
+            <footer class="foot">
 
-            <footer id="foot">
-
-                <h5 id="con">Follow us on our social media</h5>
+                    <div class="copyright">
+                        <p>
+                            <i id="cp" class="far fa-copyright"></i> copyright 2018
+                        </p>
+                    </div>
+            
+                    <div class="socials">
+                        <a class="scl" href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="scl" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="scl" href="www.gmail.com"><i class="far fa-envelope" target="_blank"></i></a>
+                   </div>
         
-                <div class="footcontainer">
-                    <a class="scl" href="http://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a class="scl" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="scl" href="www.gmail.com"><i class="far fa-envelope" target="_blank"></i></a>
-               </div>
-        
+                   <div class="uparrow">
+                        <a id="jump" href="#home"><i id="uparrow" class="fas fa-arrow-circle-up"></i></a>
+                   </div>
+            
             </footer>
 </body>
 </html>

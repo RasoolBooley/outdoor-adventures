@@ -31,6 +31,7 @@ h3 {
     text-shadow: 2px 2px rgb(0, 0, 0);
     text-decoration: underline;
     padding-top: 16%;
+    padding-bottom: 1%;
     margin: 0;
     font-family: 'Amatic SC', cursive; 
 }
@@ -51,7 +52,6 @@ h5 {
 
 
 p {
-    padding: 1em;
     font-family: 'Courgette', cursive;
 }
 
@@ -73,7 +73,7 @@ select {
     height: 6vh;
     border-radius: 2%;
     padding-left: 20px;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     margin-left: 2vw;
     width: 25.5vw;
     font-family: 'Courgette', cursive;
@@ -86,18 +86,17 @@ textarea {
 
 button {
     height: 5vh;
-    border-radius: 3%;
+    border-radius: 10%;
     margin: 2vh 0vh 0vh 26vh;
     font-family: 'Courgette', cursive;
+    transition: 400ms;
 }
 
-form {
-    background-color: #cfbcbc8c;
-    margin: 0px 34vw;
-    padding: 5vh 0px;
-    border-radius: 2%;
-    margin-bottom: 30px;
+button:hover {
+    background-color: rgba(184, 172, 172, 0.555);
+    transition: 400ms;
 }
+
 
 i {
     color: white;
@@ -112,3 +111,7 @@ i:hover {
     transition: 150ms;
 }
 
+
+footer {
+    background-color: rgba(209, 189, 189, 0.747);
+}

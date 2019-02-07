@@ -27,6 +27,7 @@ h3 {
   text-shadow: 2px 2px black;
   text-decoration: underline;
   padding-top: 16%;
+  padding-bottom: 1%;
   margin: 0;
   font-family: 'Amatic SC', cursive; }
 
@@ -43,7 +44,6 @@ h5 {
   font-family: 'Courgette', cursive; }
 
 p {
-  padding: 1em;
   font-family: 'Courgette', cursive; }
 
 a {
@@ -62,7 +62,7 @@ select {
   height: 6vh;
   border-radius: 2%;
   padding-left: 20px;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   margin-left: 2vw;
   width: 25.5vw;
   font-family: 'Courgette', cursive; }
@@ -73,16 +73,14 @@ textarea {
 
 button {
   height: 5vh;
-  border-radius: 3%;
+  border-radius: 10%;
   margin: 2vh 0vh 0vh 26vh;
-  font-family: 'Courgette', cursive; }
+  font-family: 'Courgette', cursive;
+  transition: 400ms; }
 
-form {
-  background-color: #cfbcbc8c;
-  margin: 0px 34vw;
-  padding: 5vh 0px;
-  border-radius: 2%;
-  margin-bottom: 30px; }
+button:hover {
+  background-color: rgba(184, 172, 172, 0.555);
+  transition: 400ms; }
 
 i {
   color: white;
@@ -95,6 +93,9 @@ i:hover {
   color: #8c8097;
   transition: 150ms; }
 
+footer {
+  background-color: rgba(209, 189, 189, 0.747); }
+
 .landscape {
   height: 100vh;
   width: 100%;
@@ -104,8 +105,16 @@ i:hover {
 
 .arrow-down {
   text-align: center;
-  margin: 8% 0; }
+  margin-top: 4rem;
+  animation: move 1s ease infinite; }
 
+@keyframes move {
+  0% {
+    margin-top: 2rem; }
+  50% {
+    margin-top: 3rem; }
+  100% {
+    margin-top: 2rem; } }
 .subhead {
   background-color: rgba(221, 214, 214, 0.61);
   margin: 0;
@@ -169,6 +178,10 @@ i:hover {
   display: block;
   padding: 0em 2.6em .5em 0em; }
 
+.headings {
+  color: #3b3b3b;
+  text-shadow: none; }
+
 .img1 {
   width: 100%;
   height: auto;
@@ -205,30 +218,61 @@ i:hover {
   padding-top: 1em;
   border-radius: 2%; }
 
-.fcontainer {
-  padding-top: 4vh; }
-
 #contactbg {
   background-image: url(../images/contactbg.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
-#foot {
-  background-color: rgba(209, 189, 189, 0.747); }
+.query {
+  padding-left: 3%;
+  text-align: left;
+  padding-top: 15vh; }
+
+.contact-text {
+  padding-left: 3%;
+  color: antiquewhite;
+  text-shadow: 2px 2px black; }
+
+.con-img {
+  width: 100%;
+  height: auto; }
+
+.footcontainer {
+  background-color: rgba(209, 189, 189, 0.747);
+  padding-top: 0; }
 
 .scl {
   color: #0E1428;
-  border-radius: 30%;
   transition: 400ms;
-  font-size: 1em;
-  padding-left: 22.5%; }
+  font-size: 1em; }
 
 .scl:hover {
   color: #e2d4d4;
   transition: 400ms; }
 
 #con {
-  color: #1d0e0e; }
+  color: #1d0e0e;
+  margin-top: 2em; }
+
+#cp {
+  color: black;
+  font-size: 1em;
+  text-shadow: none;
+  margin: 0;
+  padding: 0; }
+
+#uparrow {
+  float: right;
+  padding-right: 4%; }
+
+.foot {
+  margin-top: 3em; }
+
+#activities-gallery {
+  padding: 1em; }
+
+.bgcolgal {
+  background-color: rgba(177, 166, 166, 0.685); }
 
 /* Media Queries -------------------- */
 .wrapper {
@@ -236,5 +280,47 @@ i:hover {
   grid-gap: 1em;
   grid-template-columns: 3fr 3fr 3fr;
   padding-left: 2%; }
+
+.foot {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(1fr 1fr 1fr);
+  grid-template-areas: "left middle right"; }
+
+.socials {
+  grid-area: middle;
+  padding-left: 25%;
+  padding-bottom: 1em; }
+
+.copyright {
+  grid-area: left;
+  margin-top: 6em;
+  padding-left: 5%; }
+
+.uparrow {
+  grid-area: right;
+  float: right; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr); }
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+#mason3 {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+#mason15 {
+  grid-column: span 2;
+  grid-row: span 2; }
+
+#mason17 {
+  grid-column: span 1;
+  grid-row: span 2; }
 
 /*# sourceMappingURL=main.css.map */

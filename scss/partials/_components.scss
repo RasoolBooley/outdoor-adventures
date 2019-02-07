@@ -12,11 +12,21 @@
     background-size: cover;
 }
 
+// bouncing arrow
+
 .arrow-down {
     text-align: center;
-    margin: 8% 0;
+    margin-top: 4rem;
+    animation:  move 1s ease infinite;
+  }
+
+  @keyframes move {
+      0%   {margin-top: 2rem;}
+      50%  {margin-top: 3rem;}
+      100% {margin-top: 2rem;}
   }
   
+// intro image under the header
 
 .subhead {
     background-color: rgba(221, 214, 214, 0.61);
@@ -114,6 +124,12 @@
 
 // image and content for each activity 
 
+
+.headings {
+    color: rgb(59, 59, 59);
+    text-shadow: none;
+}
+
 .img1 {
     width: 100%;
     height: auto;
@@ -158,9 +174,6 @@
 
 // contact form styles
 
-.fcontainer {
-    padding-top: 4vh;
-}
 
 #contactbg {
     background-image: url(../images/contactbg.jpg);
@@ -168,21 +181,37 @@
     background-size: cover;
 }
 
+.query {
+    padding-left: 3%;
+    text-align: left;
+    padding-top: 15vh;
+}
+
+.contact-text {
+    padding-left: 3%;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+}
+
+.con-img {
+    width: 100%;
+    height: auto;
+}
+
 
 // footer and social media styles
 
 
-#foot {
+.footcontainer {
     background-color: rgba(209, 189, 189, 0.747);
+    padding-top: 0;
 }
 
 
 .scl {
     color: #0E1428;
-    border-radius: 30%;
     transition: 400ms;
     font-size: 1em;
-    padding-left: 22.5%;
 }
 
 .scl:hover {
@@ -192,8 +221,35 @@
 
 #con {
     color: rgb(29, 14, 14);
+    margin-top: 2em;
 }
 
+#cp {
+    color: black;
+    font-size: 1em;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+#uparrow {
+    float: right;
+    padding-right: 4%;
+}
+
+.foot {
+    margin-top: 3em;
+}
+
+// activity gallery styles
+
+#activities-gallery {
+    padding: 1em;
+}
+
+.bgcolgal {
+    background-color: rgba(177, 166, 166, 0.685);
+}
 
 
 
