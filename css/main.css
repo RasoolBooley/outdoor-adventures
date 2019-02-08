@@ -301,30 +301,31 @@ footer {
 .form {
   margin-left: 3em; }
 
-/* Media Queries -------------------- */
-@media only screen and (max-width: 670px) {
-  h1 {
-    font-size: 4em; }
-
-  div.socials {
-    padding-left: 0; }
-
-  input {
-    width: 50vw; } }
-@media only screen and (max-width: 485px) {
-  .dropbtn {
-    display: none; }
-
-  input {
-    width: 80vw; }
-
-  h1 {
-    font-size: 3em; } }
 .wrapper {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: 3fr 3fr 3fr;
-  padding-left: 2%; }
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 1%;
+  padding-right: 1%;
+  grid-template-areas: "asidehike asidefish asidehunt" "asidecanoe asideclimb asidecamp"; }
+
+.asidehike {
+  grid-area: asidehike; }
+
+.asidefish {
+  grid-area: asidefish; }
+
+.asidehunt {
+  grid-area: asidehunt; }
+
+.asidecanoe {
+  grid-area: asidecanoe; }
+
+.asideclimb {
+  grid-area: asideclimb; }
+
+.asidecamp {
+  grid-area: asidecamp; }
 
 .foot {
   display: grid;
@@ -366,5 +367,58 @@ img {
 #mason17 {
   grid-column: span 1;
   grid-row: span 2; }
+
+/* Media Queries -------------------- */
+@media only screen and (max-width: 670px) {
+  h1 {
+    font-size: 4em; }
+
+  div.socials {
+    padding-left: 0; }
+
+  input {
+    width: 50vw; }
+
+  select {
+    width: 80vw; }
+
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-left: 1%;
+    padding-right: 1%;
+    grid-template-areas: "asidehike asidefish" "asidehunt asidecanoe" "asideclimb asidecamp"; }
+
+  .subsub {
+    height: 50vh; } }
+@media only screen and (max-width: 485px) {
+  .dropbtn {
+    display: none; }
+
+  input {
+    width: 80vw; }
+
+  select {
+    width: 80; }
+
+  h1 {
+    font-size: 3em; }
+
+  .wrapper {
+    display: block;
+    grid-gap: 1em;
+    padding-left: 1%;
+    padding-right: 1%; }
+
+  .subsub {
+    height: 50vh; } }
+@media only screen and (max-width: 358px) {
+  .trd {
+    font-size: .8em; }
+
+  i {
+    font-size: 1.7em; } }
 
 /*# sourceMappingURL=main.css.map */
