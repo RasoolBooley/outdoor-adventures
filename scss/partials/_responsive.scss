@@ -90,6 +90,13 @@
         .subsub {
             height: 50vh;
         }
+
+        // contact page grid
+
+        .gallery {
+            display: block;
+            grid-template-columns: repeat(4, 1fr);
+        }
 }
 
 @media only screen and (max-width: 358px) {

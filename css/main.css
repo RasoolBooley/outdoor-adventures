@@ -413,7 +413,11 @@ img {
     padding-right: 1%; }
 
   .subsub {
-    height: 50vh; } }
+    height: 50vh; }
+
+  .gallery {
+    display: block;
+    grid-template-columns: repeat(4, 1fr); } }
 @media only screen and (max-width: 358px) {
   .trd {
     font-size: .8em; }

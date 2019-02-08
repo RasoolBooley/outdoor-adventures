@@ -1,6 +1,10 @@
 # outdoor-adventures
 
-a website about different outdoor activities you can do around the western cape
+A website about different outdoor activities you can do around the western cape
+
+## Livelink
+
+- 
 
 ## technolgies used
 
@@ -8,9 +12,13 @@ a website about different outdoor activities you can do around the western cape
 - gitbash
 - VSCode
 - Ruby
+- Chrome
+- Firefox
 
 ## Languages used
 
 - html
 - CSS
 - Sass
+
+
