@@ -62,11 +62,14 @@ a {
 
 input {
     height: 5vh;
-    border-radius: 2%;
     margin-bottom: 2em;
     margin-left: 2vw;
     width: 25vw;
     font-family: 'Courgette', cursive;
+    background-color: rgba(255, 255, 255, 0.342);
+    border: none black;
+    border-bottom: 1px;
+    color: white;
 }
 
 select {
@@ -76,20 +79,31 @@ select {
     margin-bottom: 5vh;
     margin-left: 2vw;
     width: 25.5vw;
+    background-color: rgba(255, 255, 255, 0.342);
+    color: white;
     font-family: 'Courgette', cursive;
+}
+
+option {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: none;
 }
 
 textarea {
     margin-left: 2vw;
     font-family: 'Courgette', cursive;
+    background-color: rgba(255, 255, 255, 0.342);
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: auto;
 }
 
 button {
-    height: 5vh;
     border-radius: 10%;
-    margin: 2vh 0vh 0vh 26vh;
+    margin: 2vh 0vh 0vh 25%;
     font-family: 'Courgette', cursive;
     transition: 400ms;
+    padding: .5em;
 }
 
 button:hover {
@@ -101,9 +115,8 @@ button:hover {
 i {
     color: white;
     font-size: 2em;
-    margin-top: 3em;
-    text-shadow: 2px 2px rgb(0, 0, 0);
     transition: 150ms;
+    padding-top: .5em;
 }
 
 i:hover {

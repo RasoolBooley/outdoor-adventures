@@ -16,14 +16,13 @@
 
 .arrow-down {
     text-align: center;
-    margin-top: 4rem;
     animation:  move 1s ease infinite;
   }
 
   @keyframes move {
-      0%   {margin-top: 2rem;}
-      50%  {margin-top: 3rem;}
-      100% {margin-top: 2rem;}
+      0%   {margin-top: 6rem;}
+      50%  {margin-top: 7rem;}
+      100% {margin-top: 6rem;}
   }
   
 // intro image under the header
@@ -135,6 +134,7 @@
     height: auto;
     padding-top: 1em;
     border-radius: 2%;
+    cursor: cell;
 }
 
 .img2 {
@@ -142,6 +142,7 @@
     height: auto;
     padding-top: 1em;
     border-radius: 2%;
+    cursor: cell;
 }
 
 .img3 {
@@ -149,6 +150,7 @@
     height: auto;
     padding-top: 1em;
     border-radius: 2%;
+    cursor: cell;
 }
 
 .img4 {
@@ -156,6 +158,7 @@
     height: auto;
     padding-top: 1em;
     border-radius: 2%;
+    cursor: cell;
 }
 
 .img5 {
@@ -163,6 +166,7 @@
     height: auto;
     padding-top: 1em;
     border-radius: 2%;
+    cursor: cell;
 }
 
 .img6 {
@@ -170,6 +174,7 @@
     height: auto;
     padding-top: 1em;
     border-radius: 2%;
+    cursor: cell;
 }
 
 // contact form styles
@@ -189,7 +194,7 @@
 
 .contact-text {
     padding-left: 3%;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px black;
 }
 
@@ -212,6 +217,7 @@
     color: #0E1428;
     transition: 400ms;
     font-size: 1em;
+    margin-right: .5em;
 }
 
 .scl:hover {
@@ -225,7 +231,7 @@
 }
 
 #cp {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1em;
     text-shadow: none;
     margin: 0;
@@ -241,6 +247,13 @@
     margin-top: 3em;
 }
 
+.foot-gallery {
+    margin-top: 0;
+}
+
+.trd {
+    color: white;
+}
 // activity gallery styles
 
 #activities-gallery {
@@ -251,6 +264,9 @@
     background-color: rgba(177, 166, 166, 0.685);
 }
 
+.form {
+    margin-left: 3em;
+}
 
 
 

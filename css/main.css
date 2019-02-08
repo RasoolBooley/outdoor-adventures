@@ -52,11 +52,14 @@ a {
 
 input {
   height: 5vh;
-  border-radius: 2%;
   margin-bottom: 2em;
   margin-left: 2vw;
   width: 25vw;
-  font-family: 'Courgette', cursive; }
+  font-family: 'Courgette', cursive;
+  background-color: rgba(255, 255, 255, 0.342);
+  border: none black;
+  border-bottom: 1px;
+  color: white; }
 
 select {
   height: 6vh;
@@ -65,18 +68,28 @@ select {
   margin-bottom: 5vh;
   margin-left: 2vw;
   width: 25.5vw;
+  background-color: rgba(255, 255, 255, 0.342);
+  color: white;
   font-family: 'Courgette', cursive; }
+
+option {
+  background-color: rgba(0, 0, 0, 0.356);
+  color: none; }
 
 textarea {
   margin-left: 2vw;
-  font-family: 'Courgette', cursive; }
+  font-family: 'Courgette', cursive;
+  background-color: rgba(255, 255, 255, 0.342);
+  color: white;
+  height: 100%;
+  width: auto; }
 
 button {
-  height: 5vh;
   border-radius: 10%;
-  margin: 2vh 0vh 0vh 26vh;
+  margin: 2vh 0vh 0vh 25%;
   font-family: 'Courgette', cursive;
-  transition: 400ms; }
+  transition: 400ms;
+  padding: .5em; }
 
 button:hover {
   background-color: rgba(184, 172, 172, 0.555);
@@ -85,9 +98,8 @@ button:hover {
 i {
   color: white;
   font-size: 2em;
-  margin-top: 3em;
-  text-shadow: 2px 2px black;
-  transition: 150ms; }
+  transition: 150ms;
+  padding-top: .5em; }
 
 i:hover {
   color: #8c8097;
@@ -105,16 +117,15 @@ footer {
 
 .arrow-down {
   text-align: center;
-  margin-top: 4rem;
   animation: move 1s ease infinite; }
 
 @keyframes move {
   0% {
-    margin-top: 2rem; }
+    margin-top: 6rem; }
   50% {
-    margin-top: 3rem; }
+    margin-top: 7rem; }
   100% {
-    margin-top: 2rem; } }
+    margin-top: 6rem; } }
 .subhead {
   background-color: rgba(221, 214, 214, 0.61);
   margin: 0;
@@ -186,37 +197,43 @@ footer {
   width: 100%;
   height: auto;
   padding-top: 1em;
-  border-radius: 2%; }
+  border-radius: 2%;
+  cursor: cell; }
 
 .img2 {
   width: 100%;
   height: auto;
   padding-top: 1em;
-  border-radius: 2%; }
+  border-radius: 2%;
+  cursor: cell; }
 
 .img3 {
   width: 100%;
   height: auto;
   padding-top: 1em;
-  border-radius: 2%; }
+  border-radius: 2%;
+  cursor: cell; }
 
 .img4 {
   width: 100%;
   height: auto;
   padding-top: 1em;
-  border-radius: 2%; }
+  border-radius: 2%;
+  cursor: cell; }
 
 .img5 {
   width: 100%;
   height: auto;
   padding-top: 1em;
-  border-radius: 2%; }
+  border-radius: 2%;
+  cursor: cell; }
 
 .img6 {
   width: 100%;
   height: auto;
   padding-top: 1em;
-  border-radius: 2%; }
+  border-radius: 2%;
+  cursor: cell; }
 
 #contactbg {
   background-image: url(../images/contactbg.jpg);
@@ -230,7 +247,7 @@ footer {
 
 .contact-text {
   padding-left: 3%;
-  color: antiquewhite;
+  color: white;
   text-shadow: 2px 2px black; }
 
 .con-img {
@@ -244,7 +261,8 @@ footer {
 .scl {
   color: #0E1428;
   transition: 400ms;
-  font-size: 1em; }
+  font-size: 1em;
+  margin-right: .5em; }
 
 .scl:hover {
   color: #e2d4d4;
@@ -255,7 +273,7 @@ footer {
   margin-top: 2em; }
 
 #cp {
-  color: black;
+  color: white;
   font-size: 1em;
   text-shadow: none;
   margin: 0;
@@ -268,13 +286,26 @@ footer {
 .foot {
   margin-top: 3em; }
 
+.foot-gallery {
+  margin-top: 0; }
+
+.trd {
+  color: white; }
+
 #activities-gallery {
   padding: 1em; }
 
 .bgcolgal {
   background-color: rgba(177, 166, 166, 0.685); }
 
+.form {
+  margin-left: 3em; }
+
 /* Media Queries -------------------- */
+@media only screen and (max-width: 700px) {
+  .socials {
+    grid-area: middle;
+    padding: 0; } }
 .wrapper {
   display: grid;
   grid-gap: 1em;
@@ -294,7 +325,7 @@ footer {
 
 .copyright {
   grid-area: left;
-  margin-top: 6em;
+  padding-top: .5em;
   padding-left: 5%; }
 
 .uparrow {
