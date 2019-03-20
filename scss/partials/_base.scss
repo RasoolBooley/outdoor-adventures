@@ -86,6 +86,7 @@ select {
     border-bottom: 3px solid rgb(255, 255, 255);
     color: white;
     font-family: 'Courgette', cursive;
+    -webkit-appearance: inherit;
 }
 
 
@@ -117,6 +118,16 @@ button {
     color: white;
     border: none;
     border: 3px solid rgb(255, 255, 255);
+}
+
+.home-btn {
+    margin: auto;
+    color: black;
+    border: 3px solid black;
+}
+
+.home-btn-box {
+    text-align: center;
 }
 
 button:hover {

@@ -72,7 +72,8 @@ select {
   border: none;
   border-bottom: 3px solid white;
   color: white;
-  font-family: 'Courgette', cursive; }
+  font-family: 'Courgette', cursive;
+  -webkit-appearance: inherit; }
 
 option {
   background-color: rgba(0, 0, 0, 0.356);
@@ -98,6 +99,14 @@ button {
   color: white;
   border: none;
   border: 3px solid white; }
+
+.home-btn {
+  margin: auto;
+  color: black;
+  border: 3px solid black; }
+
+.home-btn-box {
+  text-align: center; }
 
 button:hover {
   background-color: rgba(184, 172, 172, 0.555);
@@ -154,9 +163,18 @@ footer {
   margin: 0;
   padding: 0; }
 
+.homepage {
+  background-color: rgba(146, 141, 141, 0.699); }
+
+.gallery-nav {
+  background-color: rgba(146, 141, 141, 0.699); }
+
+.contact-nav {
+  background-color: rgba(146, 141, 141, 0.699); }
+
 .nav {
   position: fixed;
-  background-color: rgba(221, 214, 214, 0.61);
+  background-color: #ddd6d6;
   height: 8vh;
   width: 100%; }
   .nav ul {
@@ -173,7 +191,7 @@ footer {
     color: #0f0909;
     vertical-align: bottom; }
     .nav a:hover {
-      background-color: rgba(146, 141, 141, 0.61);
+      background-color: rgba(146, 141, 141, 0.699);
       box-shadow: 0px 0.5em 1em 0px rgba(0, 0, 0, 0.2); }
 
 .dropdown {
@@ -242,6 +260,12 @@ footer {
   padding-top: 1em;
   border-radius: 2%;
   cursor: cell; }
+
+.activity-text {
+  height: 4em; }
+
+.activity-text1 {
+  height: 4em; }
 
 #contactbg {
   background-image: url(../images/contactbg.jpg);
@@ -378,10 +402,18 @@ img {
   grid-column: span 1;
   grid-row: span 2; }
 
-/* Media Queries -------------------- */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 788px) {
+  .activity-text {
+    height: 6em; }
+
+  .activity-text1 {
+    height: 6.4em; }
+
   h1 {
     font-size: 4em; }
+
+  .hero-heading {
+    padding-top: 6em; }
 
   div.socials {
     padding-left: 0; }
@@ -390,7 +422,7 @@ img {
     width: 50vw; }
 
   select {
-    width: 80vw; }
+    width: 50vw; }
 
   .wrapper {
     display: grid;
@@ -401,9 +433,12 @@ img {
     padding-right: 1%;
     grid-template-areas: "asidehike asidefish" "asidehunt asidecanoe" "asideclimb asidecamp"; }
 
-  .subsub {
+  .sub-parallax {
     height: 50vh; } }
 @media only screen and (max-width: 485px) {
+  .landscape {
+    height: 80vh; }
+
   .dropbtn {
     display: none; }
 
@@ -411,10 +446,13 @@ img {
     width: 80vw; }
 
   select {
-    width: 80; }
+    width: 80vw; }
 
   h1 {
     font-size: 3em; }
+
+  .hero-heading {
+    padding-top: 6em; }
 
   .wrapper {
     display: block;
@@ -428,11 +466,5 @@ img {
   .gallery {
     display: block;
     grid-template-columns: repeat(4, 1fr); } }
-@media only screen and (max-width: 358px) {
-  .trd {
-    font-size: .8em; }
-
-  i {
-    font-size: 1.7em; } }
 
 /*# sourceMappingURL=main.css.map */

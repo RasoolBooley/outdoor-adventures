@@ -55,10 +55,22 @@
 
 // navbar and dropdown
 
+.homepage {
+    background-color: rgba(146, 141, 141, 0.699);
+}
+
+.gallery-nav {
+    background-color: rgba(146, 141, 141, 0.699);
+}
+
+.contact-nav {
+    background-color: rgba(146, 141, 141, 0.699);
+}
+
 .nav {
     
     position: fixed;
-    background-color: rgba(221, 214, 214, 0.61);
+    background-color: rgb(221, 214, 214);
     height: 8vh;
     width: 100%;
 
@@ -81,7 +93,7 @@
         vertical-align: bottom;
 
         &:hover {
-            background-color: rgba(146, 141, 141, 0.61);
+            background-color: rgba(146, 141, 141, 0.699);
             box-shadow: 0px .5em 1em 0px rgba(0,0,0,0.2);
         }
     }
@@ -177,6 +189,17 @@
     cursor: cell;
 }
 
+.activity-text {
+    height: 4em;
+}
+
+.activity-text1 {
+    height: 4em;
+}
+
+
+
+
 // contact form styles
 
 
@@ -268,3 +291,4 @@
 .form {
     margin-left: 3em;
 }
+

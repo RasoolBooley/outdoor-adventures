@@ -76,5 +76,20 @@ A website about different outdoor activities you can do around the western cape
 - fixed gallery
 - reponsiveness
 
+2019/03/19
+
+- updated readme
+- changed layout
+
+2019/03/20
+
+- repsonsiveness
+- buttons 
+- nav highights the page youre on
+
+### Contributors
+
+Rasool Booley - 2019
+
 
 

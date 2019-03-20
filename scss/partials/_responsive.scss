@@ -1,29 +1,20 @@
-/* Media Queries -------------------- */
 
+// respsonsiveness for tablet; 
 
-// How to Use CSS to Resize Your (Foreground) Images While Preserving Their Aspect Ratio
-// The simplest and most painless way to quickly get all your existing foreground pictures to fit a mobile screen is to resize them with CSS. This can easily be done with the following rules.
+@media only screen and (max-width: 788px) {
+    .activity-text {
+        height: 6em;
+    }
+    .activity-text1 {
+        height: 6.4em;
+    }
 
-// img {
-//     width: auto;
-//     max-width: 100%;
-//     height: auto;
-// }
-
-// How to Use Mobile Queries to Deliver Responsive Background Images
-
-// @media (max-width: 480px) {
-//     #picblock {
-//         background-image: url(mobile.png);
-//         background-repeat: no-repeat;
-//         background-size: contain;
-//     }
-// }
-
-
-@media only screen and (max-width: 670px) {
     h1 {
         font-size: 4em;
+    }
+
+    .hero-heading {
+        padding-top: 6em;
     }
 
     div.socials {
@@ -35,7 +26,7 @@
     }
 
     select {
-        width: 80vw;
+        width: 50vw;
     }
  
     // grid for homepage
@@ -53,7 +44,7 @@
                                 "asideclimb asidecamp"
     }
 
-    .subsub {
+    .sub-parallax {
         height: 50vh;
     }
 
@@ -62,6 +53,13 @@
 }
 
 @media only screen and (max-width: 485px) {
+
+    // hero size
+
+    .landscape {
+        height: 80vh;
+    }
+
     .dropbtn {
         display: none;
     }
@@ -71,11 +69,15 @@
     }
 
     select {
-        width: 80;
+        width: 80vw;
     }
 
     h1 {
         font-size: 3em;
+    }
+
+    .hero-heading {
+        padding-top: 6em;
     }
 
         // grid for homepage
@@ -98,18 +100,3 @@
             grid-template-columns: repeat(4, 1fr);
         }
 }
-
-@media only screen and (max-width: 358px) {
-    .trd {
-        font-size: .8em;
-    }
-
-    i {
-        font-size: 1.7em;
-    }
-}
-
-
-
-
-
