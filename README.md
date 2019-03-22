@@ -87,6 +87,10 @@ A website about different outdoor activities you can do around the western cape
 - buttons 
 - nav highights the page youre on
 
+2019/03/22
+
+- changed layout
+
 ### Contributors
 
 Rasool Booley - 2019
