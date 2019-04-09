@@ -90,6 +90,7 @@ A website about different outdoor activities you can do around the western cape
 2019/03/22
 
 - changed layout
+- responsiveness for new layout
 
 ### Contributors
 

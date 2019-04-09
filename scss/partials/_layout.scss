@@ -3,38 +3,11 @@
     grid-gap: 1em;
     grid-template-columns: repeat(2, 1fr);
     padding-left: 1%;
-    width: 70rem;
+    width: 85%;
     margin: auto;
     padding-right: 1%;
-    // grid-template-areas: 
-    //                         "asidehike asideclimb"
-    //                         "asidehunt asidecanoe"
-    //                         "asidefish asidecamp"
 }
 
-// .asidehike {
-//     grid-area: asidehike;
-// }
-
-// .asidefish {
-//     grid-area: asidefish;
-// }
-
-// .asidehunt {
-//     grid-area: asidehunt;
-// }
-
-// .asidecanoe {
-//     grid-area: asidecanoe;
-// }
-
-// .asideclimb {
-//     grid-area: asideclimb;
-// }
-
-// .asidecamp {
-//     grid-area: asidecamp;
-// }
 
 
 // grid for the footers
@@ -92,6 +65,3 @@ img {
     grid-column: span 1;
     grid-row: span 2;
 }
-
-
-

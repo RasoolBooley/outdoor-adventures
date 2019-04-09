@@ -1,5 +1,14 @@
 
-// respsonsiveness for tablet; 
+// responsiveness for tablet; 
+
+@media only screen and (max-width: 826px) {
+    .activity-heading {
+        padding-top: 30%;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 788px) {
     .activity-text {

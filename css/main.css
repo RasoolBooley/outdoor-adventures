@@ -270,7 +270,7 @@ footer {
 .activity-heading {
   text-shadow: none;
   color: #3b3b3b;
-  padding-top: 7em; }
+  padding-top: 45%; }
 
 #contactbg {
   background-image: url(../images/contactbg.jpg);
@@ -343,7 +343,7 @@ footer {
   grid-gap: 1em;
   grid-template-columns: repeat(2, 1fr);
   padding-left: 1%;
-  width: 70rem;
+  width: 85%;
   margin: auto;
   padding-right: 1%; }
 
@@ -388,6 +388,9 @@ img {
   grid-column: span 1;
   grid-row: span 2; }
 
+@media only screen and (max-width: 826px) {
+  .activity-heading {
+    padding-top: 30%; } }
 @media only screen and (max-width: 788px) {
   .activity-text {
     height: 6em; }
