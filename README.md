@@ -92,6 +92,11 @@ A website about different outdoor activities you can do around the western cape
 - changed layout
 - responsiveness for new layout
 
+2019/04/04
+
+- fixed nav
+- adjusted gallery images
+
 ### Contributors
 
 Rasool Booley - 2019

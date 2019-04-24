@@ -175,7 +175,7 @@ footer {
 .nav {
   position: fixed;
   background-color: #ddd6d6;
-  height: 8vh;
+  height: 3rem;
   width: 100%; }
   .nav ul {
     margin: 0;
@@ -369,6 +369,7 @@ footer {
 
 .gallery {
   display: grid;
+  grid-gap: .5rem;
   grid-template-columns: repeat(4, 1fr); }
 
 img {
